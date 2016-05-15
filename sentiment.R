@@ -2,6 +2,7 @@
 install.packages('devtools')
 library(devtools)
 install_github('okugami79/sentiment140', force = TRUE)
+install.packages('sentiment')
 install.packages('plyr')
 install.packages('ggplot2')
 install.packages('twitteR')
